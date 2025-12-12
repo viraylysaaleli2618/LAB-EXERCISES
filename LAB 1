@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int list[5] = {10, 20, 30, 40, 50};
+
+    cout << "Value at list[5]: " << list[5] << endl;
+
+    return 0;
+}
