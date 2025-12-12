@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int list[5] = {10, 20, 30, 40, 50};
+    int index;
+
+    cout << "Enter an index (0-4): ";
+    cin >> index;
+
+    if (index >= 0 && index < 5) {
+        cout << "Value at index " << index << ": " << list[index] << endl;
+    } else {
+        cout << "Error: Index out of bounds!" << endl;
+    }
+
+    return 0;
+}
